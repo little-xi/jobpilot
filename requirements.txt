@@ -1,0 +1,21 @@
+# 服务层
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.32,<0.33
+pydantic>=2.9,<3
+
+# 存储
+sqlalchemy>=2.0,<2.1
+
+# LLM
+openai>=1.50,<2
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+
+# 测试
+pytest>=8.0,<9
+
+# ---- W2 引入 ----
+# chromadb>=0.5,<0.6
+
+# ---- W3 引入 ----
+# langgraph>=0.2,<0.3
